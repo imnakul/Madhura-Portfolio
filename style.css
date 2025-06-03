@@ -17,8 +17,8 @@ body {
 
 main {
    padding: 20px;
-   height: 100vh;
-   margin: 20px;
+   height: 100%;
+   margin: 1rem;
    border: 2px solid black;
    border-radius: 10px;
    display: grid;
@@ -30,9 +30,10 @@ main {
    /* border: 4px solid rgb(78, 109, 175); */
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: start;
    align-items: center;
    gap: 2rem;
+   height: 100%;
 }
 
 img {
@@ -50,31 +51,77 @@ img {
    justify-content: center;
    align-items: center;
    gap: 2rem;
+   height: 100%;
 }
 
-/* .top {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.top-left {
+.skills {
+   height: 10vh;
+   width: 100%;
    border: 1px solid black;
-   padding: 10px;
-   border-radius: 100%;
+   border-radius: 10px;
    background-color: white;
-   height: 40vh;
-   width: 18vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
-.top-right {
-   display: flex;
-   flex-direction: row;
-   gap: 20px;
-   align-items: center;
-   justify-content: center;
+.projects {
+   height: 20vh;
+   width: 100%;
    border: 1px solid black;
-   padding: 10px;
-   width: 60vw;
-} */
+   border-radius: 10px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.links {
+   height: 20vh;
+   width: 100%;
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.hobbies {
+   height: 10vh;
+   width: 100%;
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.soft-skills {
+   height: 10vh;
+   width: 100%;
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.bio {
+   height: 40vh;
+   width: 100%;
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
