@@ -2,6 +2,7 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
 html,
@@ -12,122 +13,8 @@ body {
 }
 
 body {
-   background-color: hotpink;
+   background-color: rgb(126, 34, 80);
 }
-
-/* main {
-   padding: 20px;
-   height: 100%;
-   margin: 1rem;
-   border: 2px solid black;
-   border-radius: 10px;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 1rem;
-}
-
-.left {
-   
-   display: flex;
-   flex-direction: column;
-   justify-content: start;
-   align-items: center;
-   gap: 2rem;
-   height: 100%;
-}
-
-img {
-   border: 1px solid black;
-   border-radius: 100%;
-   background-color: white;
-   height: 40vh;
-   width: 18vw;
-}
-
-.right {
-   
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   gap: 2rem;
-   height: 100%;
-
-   overflow: auto;
-}
-
-.skills {
-   
-   height: 50vh;
-   width: 100%;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(175, 243, 246);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-
-.projects {
-   height: 20vh;
-   width: 100%;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(216, 165, 243);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-
-.links {
-   height: 20vh;
-   width: 100%;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(220, 250, 169);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-
-.hobbies {
-   height: 10vh;
-   width: 100%;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(253, 174, 222);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-
-.soft-skills {
-   height: 10vh;
-   width: 100%;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(180, 255, 220);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-
-.bio {
-   height: 40vh;
-   width: 100%;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(176, 177, 252);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-} */
 
 nav {
    display: flex;
@@ -135,11 +22,13 @@ nav {
    justify-content: space-between;
    background-color: rgba(0, 0, 0, 0.3);
    height: 10vh;
+   width:100%;
    padding: 1rem 3rem;
    color: white;
    border-bottom: 2px solid black;
-   position: sticky;
+   position: fixed;
    top: 0;
+   z-index:100;
 }
 
 ul {
@@ -157,7 +46,42 @@ ul {
 }
 
 .navlinks:hover {
-   background-color: #f363e7;
+   background-color: #e08be0;
    padding: 1rem;
    border-radius: 10px;
 }
+
+.section {
+   height:100vh;
+   padding-top: 10vh;
+   margin-top:10vh;
+   border:2px solid yellow;
+   background-color:rgb(109, 108, 108);
+}
+
+main {
+   margin-top:10vh;
+   background-color: violet;
+}
+
+#about {
+
+   background: pink;
+}
+
+#projects {
+   background: gold;
+}
+
+#interest {
+   background: green;
+}
+
+#links {
+   background: lightsalmon;
+}
+
+#contact{ 
+   background: lightblue;
+}
+
